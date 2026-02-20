@@ -1,0 +1,122 @@
+{
+    "name": "Valentine's Day",
+    "dataColors": [
+        "#990011",
+        "#cc1144",
+        "#ee7799",
+        "#eebbcc",
+        "#cc4477",
+        "#cc5555",
+        "#882222",
+        "#A30E33"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#ee7799",
+    "tableAccent": "#990011",
+
+    "visualStyles": {
+        "card": {
+            "*": {
+                "title": [
+                    {
+                        "show": true,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#990011"
+                            }
+                        },
+                        "fontSize": 44
+                    }
+                ],
+                "labels": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#cc1144"
+                            }
+                        },
+                        "fontSize": 23
+                    }
+                ],
+                "calloutValue": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#990011"
+                            }
+                        },
+                        "fontSize": 55
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "color": {
+                            "solid": {
+                                "color": "#ffffff"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+
+        "slicer": {
+            "*": {
+                "title": [
+                    {
+                        "show": true,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#990011"
+                            }
+                        },
+                        "fontSize": 18
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "items": [
+                    {
+                        "fontColor": {
+                            "solid": {
+                                "color": "#882222"
+                            }
+                        },
+                        "textSize": 14
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#cc1144"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
